@@ -1,5 +1,7 @@
 ﻿using Application.Common.Interfaces;
 using Domain.Common;
+using Domain.Entities;
+using Domain.Enums;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -18,9 +20,30 @@ namespace Application.Features.Addresses.Command.Add
             _applicationDbContext = applicationDbContext;
         }
 
-        public Task<Response<int>> Handle(AddressAddCommand request, CancellationToken cancellationToken)
+        public async Task<Response<int>> Handle(AddressAddCommand request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var address = new Address()
+            {
+                Name = request.Name,
+                UserId = request.UserId,
+                CountryId = request.CountryId,
+                CityId = request.CityId,
+                District = request.District,
+                PostCode = request.PostCode,
+                AddressLine1 = request.AddressLine1,
+                AddressLine2 = request.AddressLine2,
+                CreatedOn = DateTimeOffset.Now,
+                CreatedByUserId = null,
+                IsDeleted = false,
+                
+                AddressType = (AddressType)request.AddressType
+            };
+
+            await _applicationDbContext.Addresses.AddAsync(address, cancellationToken);
+
+            await _applicationDbContext.SaveChangesAsync(cancellationToken);
+
+            return new Response<int>($"The new address named \"{address.Name}\" was successfully added.");
         }
     }
 }

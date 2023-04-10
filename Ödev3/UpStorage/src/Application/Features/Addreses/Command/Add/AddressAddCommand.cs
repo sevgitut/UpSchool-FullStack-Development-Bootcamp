@@ -12,7 +12,7 @@ namespace Application.Features.Addresses.Command.Add
     public class AddressAddCommand : IRequest<Response<int>>
     {
         public string Name { get; set; }
-        public int UserId { get; set; }
+        public string UserId { get; set; }
 
         public int CountryId { get; set; }
 
