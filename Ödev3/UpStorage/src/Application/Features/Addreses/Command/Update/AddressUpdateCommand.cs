@@ -13,7 +13,7 @@ namespace Application.Features.Addresses.Command.Update
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int UserId { get; set; }
+        public string UserId { get; set; }
 
         public int CountryId { get; set; }
 

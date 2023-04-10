@@ -22,7 +22,7 @@ namespace Application.Features.Addresses.Command.Delete
 
         public async Task<Response<int>> Handle(AddressDeleteCommand request, CancellationToken cancellationToken)
         {
-            var address = await _applicationDbContext.Addresses.Where(a => a.Id == request.Id).FirstOrDefaultAsync();
+            var address = await _applicationDbContext.Addresses.Where(x => x.Id == request.Id).FirstOrDefaultAsync();
 
             if (address == null) { return new Response<int>($"The addressId of {request.Id} can not be found"); }
 

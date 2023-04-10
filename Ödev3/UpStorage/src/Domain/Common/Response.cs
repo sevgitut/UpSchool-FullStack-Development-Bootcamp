@@ -6,12 +6,12 @@
         public T Data { get; set; }
         public List<string> Errors { get; set; }
 
-        public Response()
+        public Response(string v)
         {
             
         }
 
-        public Response(string message)
+        public Response(string message, Guid id)
         {
             Message = message;
         }
