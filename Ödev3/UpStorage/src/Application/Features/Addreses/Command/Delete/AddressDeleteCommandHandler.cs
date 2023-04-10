@@ -20,9 +20,17 @@ namespace Application.Features.Addresses.Command.Delete
             _applicationDbContext = applicationDbContext;
         }
 
-        public Task<Response<int>> Handle(AddressDeleteCommand request, CancellationToken cancellationToken)
+        public async Task<Response<int>> Handle(AddressDeleteCommand request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var address = await _applicationDbContext.Addresses.Where(a => a.Id == request.Id).FirstOrDefaultAsync();
+
+            if (address == null) { return new Response<int>($"The addressId of {request.Id} can not be found"); }
+
+            _applicationDbContext.Addresses.Remove(address);
+
+            await _applicationDbContext.SaveChangesAsync(cancellationToken);
+
+            return new Response<int>($"The address named \"{address.Name}\" has been succesfully deleted.", address.Id);
         }
     }
 }
