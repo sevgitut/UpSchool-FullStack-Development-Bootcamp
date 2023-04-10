@@ -11,6 +11,6 @@ namespace Application.Features.Addresses.Command.Delete
 {
     public class AddressDeleteCommand : IRequest<Response<int>>
     {
-        public string Id { get; set; }
+        public Guid Id { get; set; }
     }
 }

@@ -3,6 +3,7 @@ using Application.Features.Addresses.Command.Add;
 using Domain.Common;
 using Domain.Entities;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,7 @@ namespace Application.Features.Addresses.Command.Delete
 
         public async Task<Response<int>> Handle(AddressDeleteCommand request, CancellationToken cancellationToken)
         {
-            var address = await _applicationDbContext.Addresses.Where(x => x.Id == request.Id).FirstOrDefaultAsync();
+            var address = await _applicationDbContext.Addresses.AnyAsync(x => x.Id == request.Id, cancellationToken);
 
             if (address == null) { return new Response<int>($"The addressId of {request.Id} can not be found"); }
 
