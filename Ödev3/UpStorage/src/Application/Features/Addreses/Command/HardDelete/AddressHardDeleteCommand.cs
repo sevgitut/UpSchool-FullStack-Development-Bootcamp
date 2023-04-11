@@ -10,6 +10,6 @@ namespace Application.Features.Addresses.Command.HardDelete
 {
     public class AddressHardDeleteCommand : IRequest<Response<int>>
     {
-        public string Id { get; set; }
+        public Guid Id { get; set; }
     }
 }
