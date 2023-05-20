@@ -1,0 +1,17 @@
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\bin\Debug\net7.0\UpSchool.Persistence.deps.json
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\bin\Debug\net7.0\UpSchool.Persistence.runtimeconfig.json
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\bin\Debug\net7.0\UpSchool.Persistence.dll
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\bin\Debug\net7.0\UpSchool.Persistence.pdb
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\bin\Debug\net7.0\UpSchool.Domain.dll
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\bin\Debug\net7.0\UpSchool.Domain.pdb
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\UpSchool.Persistence.csproj.AssemblyReference.cache
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\UpSchool.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\UpSchool.Persistence.AssemblyInfoInputs.cache
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\UpSchool.Persistence.AssemblyInfo.cs
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\UpSchool.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\UpSchool.Persistence.csproj.CopyComplete
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\UpSchool.Persistence.dll
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\refint\UpSchool.Persistence.dll
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\UpSchool.Persistence.pdb
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\UpSchool.Persistence.genruntimeconfig.cache
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\UpSchool.Persistence\obj\Debug\net7.0\ref\UpSchool.Persistence.dll

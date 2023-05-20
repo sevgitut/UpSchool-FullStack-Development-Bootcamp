@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hMa9jJleGOqTObjmM5TqwVu1dORLddZwrOYxa/FDsKfHdkFEMq4bK2Ut0cI5VplbI7XuV/57VIWKADoDnEGDMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sevgi\\Desktop\\UpSchool\\-UpSchool-Course-follow-up\\TheBasics\\src\\UpSchool.Domain\\UpSchool.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sevgi\\.nuget\\packages\\sqlite-net-pcl\\1.9.141-beta\\sqlite-net-pcl.1.9.141-beta.nupkg.sha512",
+    "C:\\Users\\sevgi\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.2\\sqlitepclraw.bundle_green.2.1.2.nupkg.sha512",
+    "C:\\Users\\sevgi\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\sevgi\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\sevgi\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\sevgi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

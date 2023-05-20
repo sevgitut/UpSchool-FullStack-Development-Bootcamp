@@ -1,0 +1,12 @@
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\bin\Debug\net7.0\UpSchool.Domain.deps.json
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\bin\Debug\net7.0\UpSchool.Domain.dll
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\bin\Debug\net7.0\UpSchool.Domain.pdb
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\obj\Debug\net7.0\UpSchool.Domain.csproj.AssemblyReference.cache
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\obj\Debug\net7.0\UpSchool.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\obj\Debug\net7.0\UpSchool.Domain.AssemblyInfoInputs.cache
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\obj\Debug\net7.0\UpSchool.Domain.AssemblyInfo.cs
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\obj\Debug\net7.0\UpSchool.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\obj\Debug\net7.0\UpSchool.Domain.dll
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\obj\Debug\net7.0\refint\UpSchool.Domain.dll
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\obj\Debug\net7.0\UpSchool.Domain.pdb
+C:\Users\sevgi\Desktop\UpSchool\-UpSchool-Course-follow-up\TheBasics\src\UpSchool.Domain\obj\Debug\net7.0\ref\UpSchool.Domain.dll
