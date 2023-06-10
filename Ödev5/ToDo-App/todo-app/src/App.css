@@ -1,0 +1,48 @@
+.app.container {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.app h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.app .ui.action.input {
+  margin-bottom: 20px;
+}
+
+.app .ui.action.input input {
+  width: 300px;
+}
+
+.app .ui.action.input .button {
+  margin-left: 10px;
+}
+
+.app .segment {
+  background-color: rgba(204, 226, 255, 0.99);
+}
+
+.app .ui.celled.table {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.app .ui.celled.table th,
+.app .ui.celled.table td {
+  padding: 10px;
+}
+
+.app .ui.celled.table th {
+  font-weight: bold;
+}
+
+.app .ui.celled.table .checkbox {
+  margin: 0 auto;
+}
+
+.app .ui.celled.table .icon {
+  cursor: pointer;
+}
